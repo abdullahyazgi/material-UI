@@ -26,4 +26,4 @@ const MuiTypography = () => {
   );
 }
 
-export default MuiTypography
+export default MuiTypography;
