@@ -1,6 +1,7 @@
 import './App.css';
-import { MaterialUISwitch } from './components/MaterialUISwitch';
-import { MuiRating } from './components/MuiRating';
+import { MuiAutocomplete } from './components/MuiAutocomplete';
+// import { MaterialUISwitch } from './components/MaterialUISwitch';
+// import { MuiRating } from './components/MuiRating';
 // import MuiCheckBox from './components/MuiCheckBox';
 // import { MuiSwitch } from './components/MuiSwitch';
 // import MuiRadioButton from './components/MuiRadioButton';
@@ -22,7 +23,8 @@ function App() {
         {/* <MuiCheckBox/> */}
         {/* <MuiSwitch/> */}
         {/* <MuiRating/> */}
-        <MaterialUISwitch/>
+        {/* <MaterialUISwitch/> */}
+        <MuiAutocomplete/>
       </div>
     </>
   );
