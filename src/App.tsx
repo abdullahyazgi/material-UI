@@ -1,5 +1,5 @@
 import './App.css';
-import { MuiBox } from './components/MuiBox';
+import { MuiLayout } from "./components/MuiLayout";
 // import { MuiAutocomplete } from './components/MuiAutocomplete';
 // import { MaterialUISwitch } from './components/MaterialUISwitch';
 // import { MuiRating } from './components/MuiRating';
@@ -13,8 +13,6 @@ import { MuiBox } from './components/MuiBox';
 
 function App() {
   return (
-    <>
-      <title> Learn_MUI</title>
       <div className="App">
         {/* <MuiTypography /> */}
         {/* <MuiButton /> */}
@@ -26,9 +24,8 @@ function App() {
         {/* <MuiRating/> */}
         {/* <MaterialUISwitch/> */}
         {/* <MuiAutocomplete/> */}
-        <MuiBox/>
+        <MuiLayout />
       </div>
-    </>
   );
 
 }
