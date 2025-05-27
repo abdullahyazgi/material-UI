@@ -1,8 +1,8 @@
-import { Box, Stack, Divider, Grid } from "@mui/material";
+import { Box, Stack, Divider, Grid, Paper } from "@mui/material";
 
 export const MuiLayout = () => {
   return (
-    <>
+    <Paper>
       <Stack
         sx={{ border: "1px solid " }}
         // direction= "column-reverse"
@@ -47,13 +47,13 @@ export const MuiLayout = () => {
           <Box bgcolor="primary.light" p={2}>
             item 3
           </Box>
-        </Grid >
+        </Grid>
         <Grid>
           <Box bgcolor="primary.light" p={2}>
             item 4
           </Box>
         </Grid>
       </Grid>
-    </>
+    </Paper>
   );
 };
