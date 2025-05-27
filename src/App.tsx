@@ -1,5 +1,6 @@
 import './App.css';
-import { MuiCard } from './components/MuiCard';
+import { MuiAccordion } from './components/MuiAccordion';
+// import { MuiCard } from './components/MuiCard';
 // import { MuiLayout } from "./components/MuiLayout";
 // import { MuiAutocomplete } from './components/MuiAutocomplete';
 // import { MaterialUISwitch } from './components/MaterialUISwitch';
@@ -14,20 +15,21 @@ import { MuiCard } from './components/MuiCard';
 
 function App() {
   return (
-      <div className="App">
-        {/* <MuiTypography /> */}
-        {/* <MuiButton /> */}
-        {/* <MuiTextField /> */}
-        {/* <MuiSelect/> */}
-        {/* <MuiRadioButton /> */}
-        {/* <MuiCheckBox/> */}
-        {/* <MuiSwitch/> */}
-        {/* <MuiRating/> */}
-        {/* <MaterialUISwitch/> */}
-        {/* <MuiAutocomplete/> */}
-        {/* <MuiLayout /> */}
-        <MuiCard />
-      </div>
+    <div className="App">
+      {/* <MuiTypography /> */}
+      {/* <MuiButton /> */}
+      {/* <MuiTextField /> */}
+      {/* <MuiSelect/> */}
+      {/* <MuiRadioButton /> */}
+      {/* <MuiCheckBox/> */}
+      {/* <MuiSwitch/> */}
+      {/* <MuiRating/> */}
+      {/* <MaterialUISwitch/> */}
+      {/* <MuiAutocomplete/> */}
+      {/* <MuiLayout /> */}
+      {/* <MuiCard /> */}
+      <MuiAccordion />
+    </div>
   );
 
 }
