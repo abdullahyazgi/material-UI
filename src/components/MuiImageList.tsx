@@ -2,7 +2,7 @@ import {
   Stack,
   ImageList,
   ImageListItem,
-  Box,
+  // Box,
   ImageListItemBar,
 } from "@mui/material";
 
