@@ -1,6 +1,7 @@
 import "./App.css";
-import { MuiLink } from "./components/MuiLink";
-// import { MuiNavBar } from "./components/MuiNavBar";
+import { MuiBreadcrumbs } from "./components/MuiBreadcrumbs";
+// import { MuiLink } from "./components/MuiLink";
+import { MuiNavBar } from "./components/MuiNavBar";
 // import { MuiImageList } from "./components/MuiImageList";
 // import { MuiAccordion } from './components/MuiAccordion';
 // import { MuiCard } from './components/MuiCard';
@@ -33,8 +34,9 @@ function App() {
       {/* <MuiCard /> */}
       {/* <MuiAccordion /> */}
       {/* <MuiImageList /> */}
-      {/* <MuiNavBar /> */}
-      <MuiLink />
+      <MuiNavBar />
+      {/* <MuiLink /> */}
+      <MuiBreadcrumbs />
     </div>
   );
 }
